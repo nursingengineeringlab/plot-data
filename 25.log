@@ -1,0 +1,643 @@
+log.js:24 [HMR] Waiting for update signal from WDS...
+app_main.js:42 starting
+app_main.js:43 http://0.0.0.0:8002/
+index.js:1 Warning: Failed prop type: Invalid prop `size` of value `md` supplied to `FontAwesomeIcon`, expected one of ["lg","xs","sm","1x","2x","3x","4x","5x","6x","7x","8x","9x","10x"].
+    at FontAwesomeIcon (http://localhost:3001/static/js/vendors~main.chunk.js:74473:27)
+    at UserList (http://localhost:3001/static/js/main.chunk.js:1737:5)
+    at div
+    at main
+    at Basic (http://localhost:3001/static/js/vendors~main.chunk.js:101541:25)
+    at Adapter (http://localhost:3001/static/js/vendors~main.chunk.js:101524:79)
+    at section
+    at BasicLayout (http://localhost:3001/static/js/vendors~main.chunk.js:101556:76)
+    at Adapter (http://localhost:3001/static/js/vendors~main.chunk.js:101524:79)
+    at section
+    at BasicLayout (http://localhost:3001/static/js/vendors~main.chunk.js:101556:76)
+    at Adapter (http://localhost:3001/static/js/vendors~main.chunk.js:101524:79)
+    at MainApp (http://localhost:3001/static/js/main.chunk.js:326:5)
+    at App
+console.<computed> @ index.js:1
+webpackHotDevClient.js:138 src/App.js
+  Line 2:8:  'logo' is defined but never used  no-unused-vars
+
+src/components/app_main.js
+  Line 14:9:    'SubMenu' is assigned a value but never used    no-unused-vars
+  Line 26:7:    'temp_user' is assigned a value but never used  no-unused-vars
+  Line 150:97:  Expected '===' and instead saw '=='             eqeqeq
+  Line 151:96:  Expected '===' and instead saw '=='             eqeqeq
+
+src/components/device_type.js
+  Line 2:40:  'Card' is defined but never used  no-unused-vars
+  Line 56:5:  Useless constructor               no-useless-constructor
+
+src/components/senior_user.js
+  Line 9:5:     'randomColor' is assigned a value but never used                                   no-unused-vars
+  Line 62:52:   Unexpected string concatenation of literals                                        no-useless-concat
+  Line 70:17:   Imported JSX component Device_Tile must be in PascalCase or SCREAMING_SNAKE_CASE   react/jsx-pascal-case
+  Line 138:11:  Imported JSX component Device_Modal must be in PascalCase or SCREAMING_SNAKE_CASE  react/jsx-pascal-case
+
+src/components/user_list.js
+  Line 8:8:  'Device_Description' is defined but never used  no-unused-vars
+printWarnings @ webpackHotDevClient.js:138
+DevTools failed to load source map: Could not load content for chrome-extension://blcdfhbibkkjpfdddnmnmhfgjlicebba/js/content_script.js.map: HTTP error: status code 404, net::ERR_UNKNOWN_URL_SCHEME
+app_main.js:93 New device ping received.  E1C5F4752EE7
+app_main.js:105 E1C5F4752EE7 1 74 137
+app_main.js:93 New device ping received.  7FE42EC284E2
+app_main.js:105 7FE42EC284E2 1 65 123
+app_main.js:93 New device ping received.  9611FEFF7E8E
+app_main.js:105 9611FEFF7E8E 1 66 118
+app_main.js:93 New device ping received.  57306F5E17D6
+app_main.js:105 57306F5E17D6 1 97 117
+app_main.js:93 New device ping received.  002CECD6BE3B
+app_main.js:105 002CECD6BE3B 1 108 115
+app_main.js:93 New device ping received.  B4DD69FE4AD5
+app_main.js:105 B4DD69FE4AD5 1 77 113
+app_main.js:93 New device ping received.  397A0622689B
+app_main.js:105 397A0622689B 1 71 114
+app_main.js:93 New device ping received.  345E79DEF236
+app_main.js:105 345E79DEF236 1 64 117
+app_main.js:93 New device ping received.  E582AE067EAA
+app_main.js:105 E582AE067EAA 1 117 115
+app_main.js:93 New device ping received.  C92701C4D6E7
+app_main.js:105 C92701C4D6E7 1 68 113
+app_main.js:93 New device ping received.  5C7BCB9FF4B7
+app_main.js:105 5C7BCB9FF4B7 1 116 114
+app_main.js:93 New device ping received.  679D079EDFD2
+app_main.js:105 679D079EDFD2 1 62 115
+app_main.js:93 New device ping received.  945758C0F151
+app_main.js:105 945758C0F151 1 82 119
+app_main.js:93 New device ping received.  63C7347C549C
+app_main.js:105 63C7347C549C 1 83 114
+app_main.js:93 New device ping received.  7D1A8B535493
+app_main.js:105 7D1A8B535493 1 78 114
+app_main.js:93 New device ping received.  62D78164E01F
+app_main.js:105 62D78164E01F 1 80 112
+app_main.js:93 New device ping received.  A0F1CC1B0BF7
+app_main.js:105 A0F1CC1B0BF7 1 106 147
+app_main.js:93 New device ping received.  5C9A83BA0A37
+app_main.js:105 5C9A83BA0A37 1 91 143
+app_main.js:93 New device ping received.  289014EC90EF
+app_main.js:105 289014EC90EF 1 60 135
+app_main.js:93 New device ping received.  A5AA718BFFDB
+app_main.js:105 A5AA718BFFDB 1 62 132
+app_main.js:93 New device ping received.  A8CB89A582F0
+app_main.js:105 A8CB89A582F0 1 66 186
+app_main.js:93 New device ping received.  450F6A58142E
+app_main.js:105 450F6A58142E 1 77 194
+app_main.js:93 New device ping received.  56FBE890CF58
+app_main.js:105 56FBE890CF58 1 72 208
+app_main.js:93 New device ping received.  DB1C3E86EFA4
+app_main.js:105 DB1C3E86EFA4 1 66 225
+app_main.js:93 New device ping received.  6555E086FB64
+app_main.js:105 6555E086FB64 1 77 314
+app_main.js:105 E1C5F4752EE7 2 114 268
+app_main.js:105 7FE42EC284E2 2 69 222
+app_main.js:105 9611FEFF7E8E 2 85 176
+app_main.js:105 57306F5E17D6 2 104 127
+app_main.js:105 002CECD6BE3B 2 113 167
+app_main.js:105 B4DD69FE4AD5 2 99 141
+app_main.js:105 397A0622689B 2 96 112
+app_main.js:105 345E79DEF236 2 68 112
+app_main.js:105 E582AE067EAA 2 94 144
+app_main.js:105 C92701C4D6E7 2 93 112
+app_main.js:105 5C7BCB9FF4B7 2 101 112
+app_main.js:105 679D079EDFD2 2 73 114
+app_main.js:105 945758C0F151 2 103 115
+app_main.js:105 63C7347C549C 2 89 123
+app_main.js:105 7D1A8B535493 2 89 114
+app_main.js:105 62D78164E01F 2 82 115
+app_main.js:105 A0F1CC1B0BF7 2 97 113
+app_main.js:105 5C9A83BA0A37 2 111 142
+app_main.js:105 289014EC90EF 2 104 112
+app_main.js:105 A5AA718BFFDB 2 71 113
+app_main.js:105 A8CB89A582F0 2 76 112
+app_main.js:105 450F6A58142E 2 97 166
+app_main.js:105 56FBE890CF58 2 97 131
+app_main.js:105 DB1C3E86EFA4 2 99 114
+app_main.js:105 6555E086FB64 2 86 113
+app_main.js:105 E1C5F4752EE7 3 81 112
+app_main.js:105 7FE42EC284E2 3 102 128
+app_main.js:105 9611FEFF7E8E 3 66 112
+app_main.js:105 57306F5E17D6 3 113 114
+app_main.js:105 002CECD6BE3B 3 80 112
+app_main.js:105 B4DD69FE4AD5 3 91 148
+app_main.js:105 397A0622689B 3 64 113
+app_main.js:105 345E79DEF236 3 118 112
+app_main.js:105 E582AE067EAA 3 94 112
+app_main.js:105 C92701C4D6E7 3 118 112
+app_main.js:105 5C7BCB9FF4B7 3 106 126
+app_main.js:105 679D079EDFD2 3 84 113
+app_main.js:105 945758C0F151 3 114 113
+app_main.js:105 63C7347C549C 3 63 111
+app_main.js:105 7D1A8B535493 3 84 136
+app_main.js:105 62D78164E01F 3 63 113
+app_main.js:105 A0F1CC1B0BF7 3 114 112
+app_main.js:105 5C9A83BA0A37 3 111 112
+app_main.js:105 289014EC90EF 3 89 111
+app_main.js:105 A5AA718BFFDB 3 88 125
+app_main.js:105 A8CB89A582F0 3 109 112
+app_main.js:105 450F6A58142E 3 108 115
+app_main.js:105 56FBE890CF58 3 111 113
+app_main.js:105 DB1C3E86EFA4 3 107 165
+app_main.js:105 6555E086FB64 3 115 118
+app_main.js:105 E1C5F4752EE7 4 76 114
+app_main.js:105 7FE42EC284E2 4 104 112
+app_main.js:105 9611FEFF7E8E 4 92 166
+app_main.js:105 57306F5E17D6 4 82 120
+app_main.js:105 002CECD6BE3B 4 84 114
+app_main.js:105 B4DD69FE4AD5 4 62 112
+app_main.js:105 397A0622689B 4 84 113
+app_main.js:105 345E79DEF236 4 108 124
+app_main.js:105 E582AE067EAA 4 111 112
+app_main.js:105 C92701C4D6E7 4 80 116
+app_main.js:105 5C7BCB9FF4B7 4 114 112
+app_main.js:105 679D079EDFD2 4 109 153
+app_main.js:105 945758C0F151 4 75 115
+app_main.js:105 63C7347C549C 4 70 112
+app_main.js:105 7D1A8B535493 4 106 113
+app_main.js:105 62D78164E01F 4 93 112
+app_main.js:105 A0F1CC1B0BF7 4 114 128
+app_main.js:105 5C9A83BA0A37 4 62 112
+app_main.js:105 289014EC90EF 4 119 112
+app_main.js:105 A5AA718BFFDB 4 81 111
+app_main.js:105 A8CB89A582F0 4 91 153
+app_main.js:105 450F6A58142E 4 69 112
+app_main.js:105 56FBE890CF58 4 104 114
+app_main.js:105 DB1C3E86EFA4 4 63 112
+app_main.js:105 6555E086FB64 4 86 180
+app_main.js:105 E1C5F4752EE7 5 96 131
+app_main.js:105 7FE42EC284E2 5 108 123
+app_main.js:105 9611FEFF7E8E 5 62 113
+app_main.js:105 57306F5E17D6 5 109 112
+app_main.js:105 002CECD6BE3B 5 71 125
+app_main.js:105 B4DD69FE4AD5 5 83 115
+app_main.js:105 397A0622689B 5 73 112
+app_main.js:105 345E79DEF236 5 86 112
+app_main.js:105 E582AE067EAA 5 101 153
+app_main.js:105 C92701C4D6E7 5 114 112
+app_main.js:105 5C7BCB9FF4B7 5 115 112
+app_main.js:105 679D079EDFD2 5 66 113
+app_main.js:105 945758C0F151 5 109 113
+app_main.js:105 63C7347C549C 5 60 124
+app_main.js:105 7D1A8B535493 5 78 112
+app_main.js:105 62D78164E01F 5 110 112
+app_main.js:105 A0F1CC1B0BF7 5 75 116
+app_main.js:105 5C9A83BA0A37 5 82 133
+app_main.js:105 289014EC90EF 5 82 112
+app_main.js:105 A5AA718BFFDB 5 113 113
+app_main.js:105 A8CB89A582F0 5 66 112
+app_main.js:105 450F6A58142E 5 111 112
+app_main.js:105 56FBE890CF58 5 79 125
+app_main.js:105 DB1C3E86EFA4 5 113 112
+app_main.js:105 6555E086FB64 5 82 112
+app_main.js:105 E1C5F4752EE7 6 111 113
+app_main.js:105 7FE42EC284E2 6 66 147
+app_main.js:105 9611FEFF7E8E 6 60 114
+app_main.js:105 57306F5E17D6 6 106 119
+app_main.js:105 002CECD6BE3B 6 107 112
+app_main.js:105 B4DD69FE4AD5 6 65 158
+app_main.js:105 397A0622689B 6 119 116
+app_main.js:105 345E79DEF236 6 77 112
+app_main.js:105 E582AE067EAA 6 90 112
+app_main.js:105 C92701C4D6E7 6 87 112
+app_main.js:105 5C7BCB9FF4B7 6 74 127
+app_main.js:105 679D079EDFD2 6 75 113
+app_main.js:105 945758C0F151 6 120 113
+app_main.js:105 63C7347C549C 6 97 112
+app_main.js:105 7D1A8B535493 6 79 161
+app_main.js:105 62D78164E01F 6 110 116
+app_main.js:105 A0F1CC1B0BF7 6 105 113
+app_main.js:105 5C9A83BA0A37 6 100 116
+app_main.js:105 289014EC90EF 6 75 113
+app_main.js:105 A5AA718BFFDB 6 89 125
+app_main.js:105 A8CB89A582F0 6 69 115
+app_main.js:105 450F6A58142E 6 81 111
+app_main.js:105 56FBE890CF58 6 77 111
+app_main.js:105 DB1C3E86EFA4 6 95 150
+app_main.js:105 6555E086FB64 6 95 112
+app_main.js:105 E1C5F4752EE7 7 82 112
+app_main.js:105 7FE42EC284E2 7 120 113
+app_main.js:105 9611FEFF7E8E 7 104 162
+app_main.js:105 57306F5E17D6 7 88 117
+app_main.js:105 002CECD6BE3B 7 65 112
+app_main.js:105 B4DD69FE4AD5 7 75 116
+app_main.js:105 397A0622689B 7 65 113
+app_main.js:105 345E79DEF236 7 100 123
+app_main.js:105 E582AE067EAA 7 75 117
+app_main.js:105 C92701C4D6E7 7 73 115
+app_main.js:105 5C7BCB9FF4B7 7 111 112
+app_main.js:105 679D079EDFD2 7 76 140
+app_main.js:105 945758C0F151 7 82 113
+app_main.js:105 63C7347C549C 7 106 113
+app_main.js:105 7D1A8B535493 7 64 111
+app_main.js:105 62D78164E01F 7 101 112
+app_main.js:105 A0F1CC1B0BF7 7 80 129
+app_main.js:105 5C9A83BA0A37 7 66 112
+app_main.js:105 289014EC90EF 7 85 112
+app_main.js:105 A5AA718BFFDB 7 117 113
+app_main.js:105 A8CB89A582F0 7 68 149
+app_main.js:105 450F6A58142E 7 80 113
+app_main.js:105 56FBE890CF58 7 87 112
+app_main.js:105 DB1C3E86EFA4 7 103 111
+app_main.js:105 6555E086FB64 7 69 171
+app_main.js:105 E1C5F4752EE7 8 115 140
+app_main.js:105 7FE42EC284E2 8 120 113
+app_main.js:105 9611FEFF7E8E 8 97 112
+app_main.js:105 57306F5E17D6 8 86 113
+app_main.js:105 002CECD6BE3B 8 65 125
+app_main.js:105 B4DD69FE4AD5 8 104 112
+app_main.js:105 397A0622689B 8 94 114
+app_main.js:105 345E79DEF236 8 88 113
+app_main.js:105 E582AE067EAA 8 107 150
+app_main.js:105 C92701C4D6E7 8 60 113
+app_main.js:105 5C7BCB9FF4B7 8 118 112
+app_main.js:105 679D079EDFD2 8 98 112
+app_main.js:105 945758C0F151 8 77 115
+app_main.js:105 63C7347C549C 8 67 134
+app_main.js:105 7D1A8B535493 8 68 113
+app_main.js:105 62D78164E01F 8 60 112
+app_main.js:105 A0F1CC1B0BF7 8 67 112
+app_main.js:105 5C9A83BA0A37 8 99 136
+app_main.js:105 289014EC90EF 8 85 114
+app_main.js:105 A5AA718BFFDB 8 120 114
+app_main.js:105 A8CB89A582F0 8 78 111
+app_main.js:105 450F6A58142E 8 79 112
+app_main.js:105 56FBE890CF58 8 93 126
+app_main.js:105 DB1C3E86EFA4 8 105 112
+app_main.js:105 6555E086FB64 8 63 128
+app_main.js:105 E1C5F4752EE7 9 106 113
+app_main.js:105 7FE42EC284E2 9 98 129
+app_main.js:105 9611FEFF7E8E 9 89 117
+app_main.js:105 57306F5E17D6 9 102 115
+app_main.js:105 002CECD6BE3B 9 61 113
+app_main.js:105 B4DD69FE4AD5 9 112 148
+app_main.js:105 397A0622689B 9 108 113
+app_main.js:105 345E79DEF236 9 97 112
+app_main.js:105 E582AE067EAA 9 92 113
+app_main.js:105 C92701C4D6E7 9 84 112
+app_main.js:105 5C7BCB9FF4B7 9 110 125
+app_main.js:105 679D079EDFD2 9 105 111
+app_main.js:105 945758C0F151 9 88 113
+app_main.js:105 63C7347C549C 9 76 112
+app_main.js:105 7D1A8B535493 9 65 135
+app_main.js:105 62D78164E01F 9 70 112
+app_main.js:105 A0F1CC1B0BF7 9 95 117
+app_main.js:105 5C9A83BA0A37 9 104 114
+app_main.js:105 289014EC90EF 9 66 112
+app_main.js:105 A5AA718BFFDB 9 116 126
+app_main.js:105 A8CB89A582F0 9 104 115
+app_main.js:105 450F6A58142E 9 64 111
+app_main.js:105 56FBE890CF58 9 100 113
+app_main.js:105 DB1C3E86EFA4 9 117 125
+app_main.js:105 6555E086FB64 9 75 113
+app_main.js:105 E1C5F4752EE7 10 97 115
+app_main.js:105 7FE42EC284E2 10 102 113
+app_main.js:105 9611FEFF7E8E 10 73 159
+app_main.js:105 57306F5E17D6 10 117 113
+app_main.js:105 002CECD6BE3B 10 61 113
+app_main.js:105 B4DD69FE4AD5 10 65 112
+app_main.js:105 397A0622689B 10 80 113
+app_main.js:105 345E79DEF236 10 120 126
+app_main.js:105 E582AE067EAA 10 80 125
+app_main.js:105 C92701C4D6E7 10 102 115
+app_main.js:105 5C7BCB9FF4B7 10 84 112
+app_main.js:105 679D079EDFD2 10 119 127
+app_main.js:105 945758C0F151 10 99 112
+app_main.js:105 63C7347C549C 10 117 112
+app_main.js:105 7D1A8B535493 10 76 113
+app_main.js:105 62D78164E01F 10 103 113
+app_main.js:105 A0F1CC1B0BF7 10 115 125
+app_main.js:105 5C9A83BA0A37 10 104 112
+app_main.js:105 289014EC90EF 10 119 112
+app_main.js:105 A5AA718BFFDB 10 115 111
+app_main.js:105 A8CB89A582F0 10 72 152
+app_main.js:105 450F6A58142E 10 73 112
+app_main.js:105 56FBE890CF58 10 75 114
+app_main.js:105 DB1C3E86EFA4 10 109 114
+app_main.js:105 6555E086FB64 10 74 159
+app_main.js:105 E1C5F4752EE7 11 115 113
+app_main.js:105 7FE42EC284E2 11 62 112
+app_main.js:105 9611FEFF7E8E 11 91 112
+app_main.js:105 57306F5E17D6 11 80 113
+app_main.js:105 002CECD6BE3B 11 80 123
+app_main.js:105 B4DD69FE4AD5 11 96 114
+app_main.js:105 397A0622689B 11 66 112
+app_main.js:105 345E79DEF236 11 90 113
+app_main.js:105 E582AE067EAA 11 74 141
+app_main.js:105 C92701C4D6E7 11 97 112
+app_main.js:105 5C7BCB9FF4B7 11 76 112
+app_main.js:105 679D079EDFD2 11 76 112
+app_main.js:105 945758C0F151 11 60 112
+app_main.js:105 63C7347C549C 11 114 141
+app_main.js:105 7D1A8B535493 11 80 115
+app_main.js:105 62D78164E01F 11 113 112
+app_main.js:105 A0F1CC1B0BF7 11 98 113
+app_main.js:105 5C9A83BA0A37 11 89 141
+app_main.js:105 289014EC90EF 11 95 113
+app_main.js:105 A5AA718BFFDB 11 73 114
+app_main.js:105 A8CB89A582F0 11 118 112
+app_main.js:105 450F6A58142E 11 99 173
+app_main.js:105 56FBE890CF58 11 103 137
+app_main.js:105 DB1C3E86EFA4 11 83 113
+app_main.js:105 6555E086FB64 11 118 114
+app_main.js:105 E1C5F4752EE7 12 107 113
+app_main.js:105 7FE42EC284E2 12 92 149
+app_main.js:105 9611FEFF7E8E 12 67 112
+app_main.js:105 57306F5E17D6 12 100 111
+app_main.js:105 002CECD6BE3B 12 90 115
+app_main.js:105 B4DD69FE4AD5 12 62 150
+app_main.js:105 397A0622689B 12 67 117
+app_main.js:105 345E79DEF236 12 88 120
+app_main.js:105 E582AE067EAA 12 97 114
+app_main.js:105 C92701C4D6E7 12 108 112
+app_main.js:105 5C7BCB9FF4B7 12 118 123
+app_main.js:105 679D079EDFD2 12 89 112
+app_main.js:105 945758C0F151 12 91 113
+app_main.js:105 63C7347C549C 12 88 112
+app_main.js:105 7D1A8B535493 12 119 126
+app_main.js:105 62D78164E01F 12 120 113
+app_main.js:105 A0F1CC1B0BF7 12 77 113
+app_main.js:105 5C9A83BA0A37 12 63 114
+app_main.js:105 289014EC90EF 12 103 172
+app_main.js:105 A5AA718BFFDB 12 74 128
+app_main.js:105 A8CB89A582F0 12 85 114
+app_main.js:105 450F6A58142E 12 82 112
+app_main.js:105 56FBE890CF58 12 95 112
+app_main.js:105 DB1C3E86EFA4 12 70 168
+app_main.js:105 6555E086FB64 12 75 124
+app_main.js:105 E1C5F4752EE7 13 61 113
+app_main.js:105 7FE42EC284E2 13 109 113
+app_main.js:105 9611FEFF7E8E 13 71 152
+app_main.js:105 57306F5E17D6 13 104 115
+app_main.js:105 002CECD6BE3B 13 110 117
+app_main.js:105 B4DD69FE4AD5 13 104 113
+app_main.js:105 397A0622689B 13 83 114
+app_main.js:105 345E79DEF236 13 60 124
+app_main.js:105 E582AE067EAA 13 63 115
+app_main.js:105 C92701C4D6E7 13 110 112
+app_main.js:105 5C7BCB9FF4B7 13 114 112
+app_main.js:105 679D079EDFD2 13 94 126
+app_main.js:105 945758C0F151 13 98 114
+app_main.js:105 63C7347C549C 13 60 112
+app_main.js:105 7D1A8B535493 13 67 113
+app_main.js:105 62D78164E01F 13 117 173
+app_main.js:105 A0F1CC1B0BF7 13 115 127
+app_main.js:105 5C9A83BA0A37 13 116 112
+app_main.js:105 289014EC90EF 13 79 112
+app_main.js:105 A5AA718BFFDB 13 106 112
+app_main.js:105 A8CB89A582F0 13 109 168
+app_main.js:105 450F6A58142E 13 70 124
+app_main.js:105 56FBE890CF58 13 86 112
+app_main.js:105 DB1C3E86EFA4 13 112 115
+app_main.js:105 6555E086FB64 13 79 156
+app_main.js:105 E1C5F4752EE7 14 90 112
+app_main.js:105 7FE42EC284E2 14 94 115
+app_main.js:105 9611FEFF7E8E 14 85 113
+app_main.js:105 57306F5E17D6 14 115 112
+app_main.js:105 002CECD6BE3B 14 79 124
+app_main.js:105 B4DD69FE4AD5 14 70 113
+app_main.js:105 397A0622689B 14 96 112
+app_main.js:105 345E79DEF236 14 67 112
+app_main.js:105 E582AE067EAA 14 99 139
+app_main.js:105 C92701C4D6E7 14 109 112
+app_main.js:105 5C7BCB9FF4B7 14 110 113
+app_main.js:105 679D079EDFD2 14 120 112
+app_main.js:105 945758C0F151 14 111 111
+app_main.js:105 63C7347C549C 14 114 143
+app_main.js:105 7D1A8B535493 14 70 114
+app_main.js:105 62D78164E01F 14 66 112
+app_main.js:105 A0F1CC1B0BF7 14 66 112
+app_main.js:105 5C9A83BA0A37 14 93 125
+app_main.js:105 289014EC90EF 14 95 112
+app_main.js:105 A5AA718BFFDB 14 110 112
+app_main.js:105 A8CB89A582F0 14 118 112
+app_main.js:105 450F6A58142E 14 105 112
+app_main.js:105 56FBE890CF58 14 101 125
+app_main.js:105 DB1C3E86EFA4 14 105 113
+app_main.js:105 6555E086FB64 14 96 112
+app_main.js:105 E1C5F4752EE7 15 118 112
+app_main.js:105 7FE42EC284E2 15 120 126
+app_main.js:105 9611FEFF7E8E 15 102 116
+app_main.js:105 57306F5E17D6 15 75 115
+app_main.js:105 002CECD6BE3B 15 119 112
+app_main.js:105 B4DD69FE4AD5 15 63 154
+app_main.js:105 397A0622689B 15 77 126
+app_main.js:105 345E79DEF236 15 101 113
+app_main.js:105 E582AE067EAA 15 91 111
+app_main.js:105 C92701C4D6E7 15 118 112
+app_main.js:105 5C7BCB9FF4B7 15 117 124
+app_main.js:105 679D079EDFD2 15 72 111
+app_main.js:105 945758C0F151 15 100 113
+app_main.js:105 63C7347C549C 15 115 115
+app_main.js:105 7D1A8B535493 15 70 139
+app_main.js:105 62D78164E01F 15 107 114
+app_main.js:105 A0F1CC1B0BF7 15 80 116
+app_main.js:105 5C9A83BA0A37 15 63 111
+app_main.js:105 289014EC90EF 15 109 166
+app_main.js:105 A5AA718BFFDB 15 85 124
+app_main.js:105 A8CB89A582F0 15 70 135
+app_main.js:105 450F6A58142E 15 103 112
+app_main.js:105 56FBE890CF58 15 97 111
+app_main.js:105 DB1C3E86EFA4 15 120 137
+app_main.js:105 6555E086FB64 15 104 116
+app_main.js:105 E1C5F4752EE7 16 83 112
+app_main.js:105 7FE42EC284E2 16 118 112
+app_main.js:105 9611FEFF7E8E 16 112 125
+app_main.js:105 57306F5E17D6 16 60 112
+app_main.js:105 002CECD6BE3B 16 100 112
+app_main.js:105 B4DD69FE4AD5 16 120 112
+app_main.js:105 397A0622689B 16 90 168
+app_main.js:105 345E79DEF236 16 82 123
+app_main.js:105 E582AE067EAA 16 88 112
+app_main.js:105 C92701C4D6E7 16 94 111
+app_main.js:105 5C7BCB9FF4B7 16 104 112
+app_main.js:105 679D079EDFD2 16 64 126
+app_main.js:105 945758C0F151 16 93 115
+app_main.js:105 63C7347C549C 16 73 111
+app_main.js:105 7D1A8B535493 16 101 111
+app_main.js:105 62D78164E01F 16 110 154
+app_main.js:105 A0F1CC1B0BF7 16 76 112
+app_main.js:105 5C9A83BA0A37 16 106 117
+app_main.js:105 289014EC90EF 16 88 112
+app_main.js:105 A5AA718BFFDB 16 90 112
+app_main.js:105 A8CB89A582F0 16 93 145
+app_main.js:105 450F6A58142E 16 108 125
+app_main.js:105 56FBE890CF58 16 66 115
+app_main.js:105 DB1C3E86EFA4 16 113 113
+app_main.js:105 6555E086FB64 16 92 130
+app_main.js:105 E1C5F4752EE7 17 90 112
+app_main.js:105 7FE42EC284E2 17 113 113
+app_main.js:105 9611FEFF7E8E 17 89 112
+app_main.js:105 57306F5E17D6 17 65 112
+app_main.js:105 002CECD6BE3B 17 63 126
+app_main.js:105 B4DD69FE4AD5 17 69 112
+app_main.js:105 397A0622689B 17 64 115
+app_main.js:105 345E79DEF236 17 67 114
+app_main.js:105 E582AE067EAA 17 82 128
+app_main.js:105 C92701C4D6E7 17 114 112
+app_main.js:105 5C7BCB9FF4B7 17 110 114
+app_main.js:105 679D079EDFD2 17 81 113
+app_main.js:105 945758C0F151 17 103 158
+app_main.js:105 63C7347C549C 17 79 113
+app_main.js:105 7D1A8B535493 17 82 113
+app_main.js:105 62D78164E01F 17 107 114
+app_main.js:105 A0F1CC1B0BF7 17 115 113
+app_main.js:105 5C9A83BA0A37 17 86 130
+app_main.js:105 289014EC90EF 17 117 113
+app_main.js:105 A5AA718BFFDB 17 120 112
+app_main.js:105 A8CB89A582F0 17 69 112
+app_main.js:105 450F6A58142E 17 104 140
+app_main.js:105 56FBE890CF58 17 116 114
+app_main.js:105 DB1C3E86EFA4 17 70 113
+app_main.js:105 6555E086FB64 17 84 114
+app_main.js:105 E1C5F4752EE7 18 93 112
+app_main.js:105 7FE42EC284E2 18 69 148
+app_main.js:105 9611FEFF7E8E 18 102 113
+app_main.js:105 57306F5E17D6 18 84 112
+app_main.js:105 002CECD6BE3B 18 106 114
+app_main.js:105 B4DD69FE4AD5 18 114 126
+app_main.js:105 397A0622689B 18 92 112
+app_main.js:105 345E79DEF236 18 60 114
+app_main.js:105 E582AE067EAA 18 61 112
+app_main.js:105 C92701C4D6E7 18 93 168
+app_main.js:105 5C7BCB9FF4B7 18 105 149
+app_main.js:105 679D079EDFD2 18 66 114
+app_main.js:105 945758C0F151 18 86 112
+app_main.js:105 63C7347C549C 18 91 111
+app_main.js:105 7D1A8B535493 18 120 124
+app_main.js:105 62D78164E01F 18 114 113
+app_main.js:105 A0F1CC1B0BF7 18 81 115
+app_main.js:105 5C9A83BA0A37 18 107 112
+app_main.js:105 289014EC90EF 18 115 152
+app_main.js:105 A5AA718BFFDB 18 75 113
+app_main.js:105 A8CB89A582F0 18 105 116
+app_main.js:105 450F6A58142E 18 63 112
+app_main.js:105 56FBE890CF58 18 93 113
+app_main.js:105 DB1C3E86EFA4 18 78 125
+app_main.js:105 6555E086FB64 18 110 112
+app_main.js:105 E1C5F4752EE7 19 80 112
+app_main.js:105 7FE42EC284E2 19 85 116
+app_main.js:105 9611FEFF7E8E 19 90 132
+app_main.js:105 57306F5E17D6 19 68 113
+app_main.js:105 002CECD6BE3B 19 75 111
+app_main.js:105 B4DD69FE4AD5 19 116 112
+app_main.js:105 397A0622689B 19 67 165
+app_main.js:105 345E79DEF236 19 74 125
+app_main.js:105 E582AE067EAA 19 69 120
+app_main.js:105 C92701C4D6E7 19 114 114
+app_main.js:105 5C7BCB9FF4B7 19 104 112
+app_main.js:105 679D079EDFD2 19 119 126
+app_main.js:105 945758C0F151 19 71 112
+app_main.js:105 63C7347C549C 19 92 112
+app_main.js:105 7D1A8B535493 19 115 112
+app_main.js:105 62D78164E01F 19 73 138
+app_main.js:105 A0F1CC1B0BF7 19 101 116
+app_main.js:105 5C9A83BA0A37 19 98 113
+app_main.js:105 289014EC90EF 19 66 112
+app_main.js:105 A5AA718BFFDB 19 82 113
+app_main.js:105 A8CB89A582F0 19 85 125
+app_main.js:105 450F6A58142E 19 60 112
+app_main.js:105 56FBE890CF58 19 91 112
+app_main.js:105 DB1C3E86EFA4 19 63 112
+app_main.js:105 6555E086FB64 19 83 123
+app_main.js:105 E1C5F4752EE7 20 66 112
+app_main.js:105 7FE42EC284E2 20 98 112
+app_main.js:105 9611FEFF7E8E 20 60 112
+app_main.js:105 57306F5E17D6 20 120 172
+app_main.js:105 002CECD6BE3B 20 67 121
+app_main.js:105 B4DD69FE4AD5 20 81 116
+app_main.js:105 397A0622689B 20 80 113
+app_main.js:105 345E79DEF236 20 119 112
+app_main.js:105 E582AE067EAA 20 66 126
+app_main.js:105 C92701C4D6E7 20 66 114
+app_main.js:105 5C7BCB9FF4B7 20 70 114
+app_main.js:105 679D079EDFD2 20 98 112
+app_main.js:105 945758C0F151 20 97 162
+app_main.js:105 63C7347C549C 20 65 123
+app_main.js:105 7D1A8B535493 20 86 115
+app_main.js:105 62D78164E01F 20 91 112
+app_main.js:105 A0F1CC1B0BF7 20 84 111
+app_main.js:105 5C9A83BA0A37 20 63 129
+app_main.js:105 289014EC90EF 20 81 112
+app_main.js:105 A5AA718BFFDB 20 68 112
+app_main.js:105 A8CB89A582F0 20 82 112
+app_main.js:105 450F6A58142E 20 101 124
+app_main.js:105 56FBE890CF58 20 83 112
+app_main.js:105 DB1C3E86EFA4 20 94 113
+app_main.js:105 6555E086FB64 20 81 112
+app_main.js:105 E1C5F4752EE7 21 82 171
+app_main.js:105 7FE42EC284E2 21 103 125
+app_main.js:105 9611FEFF7E8E 21 86 113
+app_main.js:105 57306F5E17D6 21 78 115
+app_main.js:105 002CECD6BE3B 21 61 112
+app_main.js:105 B4DD69FE4AD5 21 83 126
+app_main.js:105 397A0622689B 21 92 112
+app_main.js:105 345E79DEF236 21 115 113
+app_main.js:105 E582AE067EAA 21 74 113
+app_main.js:105 C92701C4D6E7 21 105 149
+app_main.js:105 5C7BCB9FF4B7 21 89 113
+app_main.js:105 679D079EDFD2 21 104 114
+app_main.js:105 945758C0F151 21 112 114
+app_main.js:105 63C7347C549C 21 61 113
+app_main.js:105 7D1A8B535493 21 81 125
+app_main.js:105 62D78164E01F 21 108 111
+app_main.js:105 A0F1CC1B0BF7 21 96 113
+app_main.js:105 5C9A83BA0A37 21 103 113
+app_main.js:105 289014EC90EF 21 94 129
+app_main.js:105 A5AA718BFFDB 21 116 114
+app_main.js:105 A8CB89A582F0 21 117 112
+app_main.js:105 450F6A58142E 21 90 112
+app_main.js:105 56FBE890CF58 21 66 112
+app_main.js:105 DB1C3E86EFA4 21 85 125
+app_main.js:105 6555E086FB64 21 112 112
+app_main.js:105 E1C5F4752EE7 22 120 112
+app_main.js:105 7FE42EC284E2 22 105 115
+app_main.js:105 9611FEFF7E8E 22 100 125
+app_main.js:105 57306F5E17D6 22 61 112
+app_main.js:105 002CECD6BE3B 22 94 112
+app_main.js:105 B4DD69FE4AD5 22 65 115
+app_main.js:105 397A0622689B 22 75 162
+app_main.js:105 345E79DEF236 22 65 114
+app_main.js:105 E582AE067EAA 22 112 114
+app_main.js:105 C92701C4D6E7 22 95 116
+app_main.js:105 5C7BCB9FF4B7 22 80 114
+app_main.js:105 679D079EDFD2 22 98 125
+app_main.js:105 945758C0F151 22 108 113
+app_main.js:105 63C7347C549C 22 100 111
+app_main.js:105 7D1A8B535493 22 62 116
+app_main.js:105 62D78164E01F 22 60 139
+app_main.js:105 A0F1CC1B0BF7 22 63 113
+app_main.js:105 5C9A83BA0A37 22 92 114
+app_main.js:105 289014EC90EF 22 96 113
+app_main.js:105 A5AA718BFFDB 22 79 155
+app_main.js:105 A8CB89A582F0 22 113 113
+app_main.js:105 450F6A58142E 22 61 127
+app_main.js:105 56FBE890CF58 22 74 112
+app_main.js:105 DB1C3E86EFA4 22 81 111
+app_main.js:105 6555E086FB64 22 111 140
+app_main.js:105 E1C5F4752EE7 23 83 112
+app_main.js:98 Device offline  E1C5F4752EE7
+app_main.js:98 Device offline  7FE42EC284E2
+app_main.js:98 Device offline  9611FEFF7E8E
+app_main.js:98 Device offline  57306F5E17D6
+app_main.js:98 Device offline  002CECD6BE3B
+app_main.js:98 Device offline  B4DD69FE4AD5
+app_main.js:98 Device offline  397A0622689B
+app_main.js:98 Device offline  345E79DEF236
+app_main.js:98 Device offline  E582AE067EAA
+app_main.js:98 Device offline  C92701C4D6E7
+app_main.js:98 Device offline  5C7BCB9FF4B7
+app_main.js:98 Device offline  679D079EDFD2
+app_main.js:98 Device offline  945758C0F151
+app_main.js:98 Device offline  63C7347C549C
+app_main.js:98 Device offline  7D1A8B535493
+app_main.js:98 Device offline  62D78164E01F
+app_main.js:98 Device offline  A0F1CC1B0BF7
+app_main.js:98 Device offline  5C9A83BA0A37
+app_main.js:98 Device offline  289014EC90EF
+app_main.js:98 Device offline  A5AA718BFFDB
+app_main.js:98 Device offline  A8CB89A582F0
+app_main.js:98 Device offline  450F6A58142E
+app_main.js:98 Device offline  56FBE890CF58
+app_main.js:98 Device offline  DB1C3E86EFA4
+app_main.js:98 Device offline  6555E086FB64
