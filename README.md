@@ -6,9 +6,9 @@
 ab -A user:password -g output.csv -n 100 -c 25 http://127.0.0.1:8002/seniors/
 
 
-ab -A test:test -g ~/old.csv -n 1000 -c 200 http://127.0.0.1:8002/seniors/
+ab -A test:test -g ~/old.csv -n 1000 -c 50 http://127.0.0.1:8002/seniors/
 
-ab -A test:test -g ~/new.csv -n 1000 -c 200 http://127.0.0.1:30007/seniors/
+ab -A test:test -g ~/new.csv -n 1000 -c 50 http://127.0.0.1:30007/seniors/
  
 ```
 
