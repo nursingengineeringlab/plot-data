@@ -21,3 +21,8 @@ plot"old.csv"using 9 smooth sbezier with lines title "old: RESTful GET 127.0.0.1
 plot"old.csv"using 9 smooth sbezier with lines title "old: GET 127.0.0.1/seniors"
 ```
 
+# parse file awk
+
+```
+cat 25new.log |grep "app_main.js:102" |awk -F ' ' '{print $5}' > 25new
+```
