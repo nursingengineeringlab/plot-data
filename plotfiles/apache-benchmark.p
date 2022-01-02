@@ -11,6 +11,9 @@ set title "ab -A test:test -n 1000 -c 50"
 #set size 1,0.7
 set terminal png size 600
 
+set style line 1 lc 3  linetype 7 pointinterval 5
+set style line 2 lc 2  linetype 8 pointinterval 5
+
 # y-axis grid
 set grid y
 
@@ -21,5 +24,5 @@ set xlabel "GET request"
 set ylabel "response time (ms)"
 
 #plot data from "out.data" using column 9 with smooth sbezier lines
-plot "old.csv" using 9 lc 2 smooth sbezier with lines title "old", "new.csv" using 9 lc 3 smooth sbezier with lines title "new"
+plot "output.csv" using 9  smooth sbezier with lp ls 2 title "old", "new.csv" using 9 smooth sbezier with lp ls 1 title "new"
 
